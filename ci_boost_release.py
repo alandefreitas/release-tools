@@ -632,8 +632,8 @@ class script(script_common):
                 "git",
                 "clone",
                 "--depth=1",
-                "--branch=%s" % checkout_branch,
-                "https://github.com/cppalliance/site-docs.git",
+                "--branch=url-enabled",
+                "https://github.com/alandefreitas/site-docs.git",
                 "antora",
             )
         os.chdir(antora_dir)
